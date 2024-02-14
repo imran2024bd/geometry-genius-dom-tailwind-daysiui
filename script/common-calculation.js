@@ -19,6 +19,15 @@ function calculatePentagonArea() {
     setInnerTextById('pentagon-area', area);
 }
 
+// Run function of the calculateEllipseArea
+function calculateEllipseArea() {
+    const a = getInputvalueById('ellipse-base');
+    const b = getInputvalueById('ellipse-height');
+    // console.log(a , b);
+    const area = 3.1416 * a * b ;
+    console.log('Area of the ellipse is: ' , area);
+    setInnerTextById('ellipse-area', area);
+}
 
 // To find main value function of geometry property
 function getInputvalueById(inputFieldId) {
