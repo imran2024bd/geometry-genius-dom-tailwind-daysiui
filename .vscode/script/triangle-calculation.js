@@ -9,3 +9,7 @@
  * step-5: convert the value to a number. use parseFloat
  * 
  */
+
+function calculateTriangleArea() {
+    
+}
